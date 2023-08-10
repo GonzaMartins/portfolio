@@ -1,0 +1,95 @@
+.contactMe{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+.cmContainer {
+    background-color: wheat;
+    display: flex;
+    width: 85vh;
+    /* height: 33vh; */
+    /* display: flex;
+    justify-content: space-around; */
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+
+.alertContainer{
+    position: absolute;
+    bottom: 4vh;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    margin-bottom: 2vh;
+}
+
+.moreInformationContainer{
+    padding: 2vh;
+    border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.labelContainer{
+    margin-bottom: 1vh;
+}
+.labelInput {
+    width: 4vh;
+    display: grid;
+}
+
+.iconContainer{
+    display: flex;
+    /* flex-direction: column; */
+    margin-bottom: 2vh;
+}
+
+
+
+.buttonCm{
+    margin-top: 1vh;
+    width: 60%;
+}
+
+.titlesContactMe{
+    margin-bottom: 3vh;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.inputCM{
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    padding: 0.7vh;
+    color: aliceblue;
+    width: 100%;
+}
+
+@media (max-width: 820px) {
+    .cmContainer {
+        width: 80%;
+    }
+  }
+@media (max-width: 580px) {
+    .cmContainer {
+        width: 80%;
+        grid-gap: 0vh;
+    }
+    .titlesContactMe{
+        font-size: 18px;
+    }
+}

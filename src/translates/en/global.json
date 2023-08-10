@@ -1,0 +1,37 @@
+{
+    "nav": {
+        "Home": "Home",
+        "AboutMe": "About me",
+        "Skills": "Skills",
+        "Projects": "Projects",
+        "ContactMe": "Contact me"
+    },
+    "Home": {
+        "Hi": "Hi,",
+        "Presentation": "my name is Gonzalo Martins.",
+        "TypicalHome": "I am a full stack developer",
+        "ViewCv": "View CV",
+        "DownloadCv": "Download CV"
+    },
+    "AboutMe": {
+        "Text": "Welcome to my portfolio! My name is Gonzalo Martins, and I'm 21 years old. I have one year of experience as a developer, during which I held the position of full-stack developer. In terms of education, I completed a bootcamp called Henry and then continued my journey as a self-taught developer. I consider myself a committed individual with a passion for taking on new challenges."
+    },
+    "ContactMe": {
+        "Name": "Name",
+        "Email": "Email",
+        "Message": "Message",
+        "MoreInfo": "More information",
+        "Send": "Send!",
+        "LeaveMsj": "Leave your message!"
+    },
+    "Proyects": {
+        "Memotest": "The famous memory game 'memotest' created with js and css",
+        "Nasa": "An application that displays a photo accompanied by a description selected by NASA. Daily, NASA updates this API to refresh the information.",
+        "Clima": "An application that displays the weather in any city around the world.",
+        "Todo": "An application that you can use as a to-do list. In this app, you can create tasks, edit them, mark them as completed, and delete them.",
+        "Gestor": "Application for a laundry service that manages orders, prices, and financial balances.",
+        "GestorName": "Data management application",
+        "ClimaName": "Weather"
+
+    }
+}

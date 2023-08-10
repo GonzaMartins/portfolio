@@ -1,0 +1,36 @@
+{
+    "nav": {
+        "Home": "Inicio",
+        "AboutMe": "Sobre mi",
+        "Skills": "Habilidades",
+        "Projects": "Proyectos",
+        "ContactMe": "Contactame"
+    },
+    "Home": {
+        "Hi": "Hola,",
+        "Presentation": "mi nombre es Gonzalo Martins.",
+        "TypicalHome": "Soy desarrollador full-stack",
+        "ViewCv": "Ver CV",
+        "DownloadCv": "Descargar CV"
+    },
+    "AboutMe": {
+        "Text": "Bienvenido a mi portafolio! Mi nombre es Gonzalo Martins, tengo 21 anos de edad. Cuento con un año de experiencia como desarrollador, en el cual ocupe el puesto de desarrollador full-stack. En cuanto al estudio completé un bootcamp llamado Henry y luego seguí mi camino de forma autodidacta. Me considero una persona comprometida y con ganas de tener nuevos desafíos."
+    },
+    "ContactMe": {
+        "Name": "Nombre",
+        "Email": "Email",
+        "Message": "Mensaje",
+        "MoreInfo": "Mas informacion",
+        "Send": "Enviar",
+        "LeaveMsj": "Deja tu mensaje!"
+    },
+    "Proyects": {
+        "Memotest": "El famoso juego memotest creado con js y css",
+        "Nasa": "Aplicacion que muestra una foto acompañada de una descripcion seleccionada por la nasa. Diariamente la NASA actualiza esta api para renovar la informacion.",
+        "Clima": "Aplicacion que muestra el clima en cualquier ciudad del mundo.",
+        "Todo": "Aplicacion que puedes utilizar como lista de tareas. En esta podras crear tareas, editarlas, marcarlas como terminadas y eliminarlas.",
+        "Gestor": "Aplicación para un lavadero de ropa que se encarga de gestionar pedidos, precios y el balance.",
+        "GestorName": "Gestor de datos",
+        "ClimaName": "Clima"
+    }
+}

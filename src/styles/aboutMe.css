@@ -1,0 +1,46 @@
+.aboutMe{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    /* background-image: url('../fondo1.jpg'); */
+    /* filter: brightness(50%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleAboutMe{
+    color: #00ADB5;
+    font-weight: bold;
+}
+
+.textAboutMe {
+    padding-top: 4vh;
+}
+
+.textAboutMe {
+    padding: 5vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+.aboutMeTitle{
+    padding: 2vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} 
+
+.aboutMeTextContainer{
+    width: 60%;
+}
+
+
+
+@media (max-width: 700px) {
+    .aboutMeImgs{
+        display: none;
+    }
+    .aboutMeTextContainer{
+        width: 80%;
+    }
+  }

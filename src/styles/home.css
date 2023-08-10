@@ -1,0 +1,243 @@
+.home{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-content: center;
+}
+.pdfOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.pdfContainer {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.closeButton {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 8vw;
+  height: 3vh;
+}
+
+  .divButtons{
+    display: flex;
+  }
+
+@media (max-width: 640px) {
+    .home {
+      flex-direction: column;
+    }
+  }
+
+
+  .animation_right {
+    animation: animation_right  2s 1 ;
+  }
+  
+  
+  .animation_left {
+    animation: animation_left  2s 1 ;
+  }
+
+.buttonCv{
+    background: transparent;
+    transition: .5s;
+    margin-top: 3vh;
+}
+
+.buttonVisualizer{
+    margin-left: 1vh;
+}
+
+.title {
+    font-weight: bold;
+    text-align: -webkit-left;
+    animation: animation_left  2s 1 ;
+}
+
+@keyframes animation_left {
+   
+    0% {
+      opacity: 0;
+      transform: translateX(-100vw);
+    }
+  }
+  
+@keyframes animation_right {
+   
+    0% {
+      opacity: 0;
+      transform: translateX(100vw);
+    }
+  }
+.typicalText {
+    font-weight: bold;
+}
+
+.typicalTextDarkMode{
+    color: #635985;
+    font-weight: bold;
+}
+
+.divImages{
+    position: relative;
+    place-self: flex-end;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.divImages img {
+    height: auto;
+}
+
+.divTitles{
+    place-self: center;
+    align-self: center;
+    /* margin-right: auto; */
+    width: 60%;
+}
+.mancha {
+    position: absolute;
+    max-width: 65%;
+    animation: animateImage2 4s infinite linear reverse;
+    bottom: 0;
+    left: 0;
+}
+.computerImg {
+    position: relative;
+    z-index: 1;
+    max-width: 80%;
+    animation: animateImage 4s infinite linear reverse;
+}
+@keyframes animateImage {
+    0%{
+        right: 0px;
+        top: 0px
+    }
+    30%{
+        right: 5px;
+        top: -10px
+    }
+    60%{
+        right: 0px;
+        top: 0px
+    }
+    70%{
+        right: -5px;
+        top: 10px
+    }
+    100%{
+        right: 0px;
+        top: 0px
+    }
+}
+
+
+
+
+  .smallIconsHome{
+    position: absolute;
+    height: 65px;
+    width: 60px;
+    /* transform: translate(-50%, -50%); */
+    animation: rotate 4s ease-in-out infinite;
+  }
+
+  .smallComputer{
+    bottom: 25vh;
+    right: 6vh;
+  }
+
+  .smallSmarthphone{
+    top: 24vh;
+    right: 35%;
+  }
+
+  .smallCoffe{
+    right: 7vh;
+    top: 16vh;
+  }
+
+
+  @keyframes rotate {
+    /* 0% {
+        transform: rotate(0deg) scale(1);
+      }
+      25% {
+        transform: rotate(20deg) scale(1.2);
+      }
+      50% {
+        transform: rotate(0deg) scale(1);
+      }
+      75% {
+        transform: rotate(-20deg) scale(1.2);
+      }
+      100% {
+        transform: rotate(0deg) scale(1);
+      } */
+      0% {
+        transform: rotate(0deg) scale(0.85) ;
+      }
+      25% {
+        transform: rotate(5deg) scale(1);
+      }
+      50% {
+        transform: rotate(0deg) scale(0.85);
+      }
+      75% {
+        transform: rotate(-5deg) scale(1);
+      }
+      100% {
+        transform: rotate(0deg) scale(0.85) ;
+      }
+  }
+
+
+  @media (max-width: 950px) {
+    .smallSmarthphone{
+        right: 80%;
+      }
+    .divImages{
+        display: none;
+    }
+    .home{
+        display: flex;
+    }
+    .divButtons{
+        justify-content: center;
+    }
+  }
+  @media (max-width: 1550px) {
+    .divTitles{
+        width: 70%;
+    }
+  }
+  @media (max-width: 650px) {
+    .title {
+        height: 20vh;
+    }
+}
