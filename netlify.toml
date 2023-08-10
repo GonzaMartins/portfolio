@@ -1,2 +1,2 @@
 [build]
-  command = "npm run build"
+command = "REACT_APP_STAGE=dev CI='' npm run build"
