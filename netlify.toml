@@ -1,1 +1,2 @@
-GIT_CONFIG_NOSYSTEM="true"
+[build]
+command = "CI= npm run build"
