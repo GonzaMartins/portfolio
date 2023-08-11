@@ -375,7 +375,7 @@ html {
 
 @media (max-width: 1160px) {
   .buttons {
-      font-size: 23px !important;
+      font-size: 23px;
   }
 }
 
@@ -384,14 +384,8 @@ html {
     font-size: 15px !important;
     height: auto;
   }
-  .buttonCv {
-    margin-top: 4vh !important;
-  }
 }
 @media (max-width: 400px) {
-  .buttonCv {
-    margin-top: 6vh !important;
-  }
   .title {
     font-size: 25px !important;
   }
@@ -411,6 +405,9 @@ html {
   }
   .text{
     font-size: 17px
+  }
+  .buttons{
+    font-size: 18px
   }
 }
 
