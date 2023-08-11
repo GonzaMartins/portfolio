@@ -37,8 +37,6 @@
 }
 
 .divIcons{
-    /* padding-top: 2vh;
-    padding-bottom: 2vh; */
     padding: 2vh;
 }
 
@@ -53,5 +51,9 @@
     .skillsContainer{
         width: 80%;
     }
+    .divIcons{
+        padding: 1vh;
+    }
+    
   }
   

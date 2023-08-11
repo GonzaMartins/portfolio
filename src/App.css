@@ -381,7 +381,7 @@ html {
 
 @media (max-width: 475px) {
   .buttons {
-    font-size: 25px !important;
+    font-size: 15px !important;
     height: auto;
   }
   .buttonCv {
@@ -398,14 +398,22 @@ html {
 }
 @media (max-width: 950px) {
   .titles{
-      font-size: 35px ;
       text-align-last: center;
       text-align: -webkit-center !important;
   }
-  .textAboutMe{
-    font-size: 20px !important;
+}
+
+@media (max-width: 700px) {
+  .titles{
+      text-align-last: center;
+      text-align: -webkit-center !important;
+      font-size: 20px;
+  }
+  .text{
+    font-size: 17px
   }
 }
+
 
 .dark-mode .technologiesContainer {
   background-color: #241c3e;

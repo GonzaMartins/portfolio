@@ -1,4 +1,4 @@
-.projects{
+.projects {
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -10,28 +10,28 @@
 .textDescription {
   padding-top: 5%;
 }
-.carrousel{
+.carrousel {
   width: 60%;
   max-width: 120em;
   display: flex;
   flex-direction: column;
-  background: transparent;;
-    overflow: hidden;
-    height: auto;
-    border-top-right-radius: 10px;
+  background: transparent;
+  overflow: hidden;
+  height: auto;
+  border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 .carrouselDiv {
   width: 500%;
-  background-color: transparent;;
+  background-color: transparent;
   display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-    align-self: flex-start;
-    transition: filter 0.3s ease-in-out;
-    transition: all .8s ease;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+  transition: filter 0.3s ease-in-out;
+  transition: all 0.8s ease;
 }
 
 .first {
@@ -40,16 +40,16 @@
 .second {
   transform: translateX(-20%);
 }
-.third{
+.third {
   transform: translateX(-40%);
 }
-.fourth{
+.fourth {
   transform: translateX(-60%);
 }
-.fifth{
+.fifth {
   transform: translateX(-80%);
 }
-.points{
+.points {
   width: 100%;
   height: 7vh;
   padding: 1em;
@@ -59,7 +59,7 @@
   align-items: center;
 }
 
-.point{
+.point {
   width: 1.5em;
   height: 1.5em;
   margin: 1em;
@@ -71,7 +71,7 @@
   width: 1.6em;
   height: 1.6em;
 }
-.proyectInformation{
+.proyectInformation {
   width: 30%;
   background-color: black;
   color: aliceblue;
@@ -86,10 +86,10 @@
   display: flex;
   padding: 2rem;
 }
-.githubLinkContainer{
+.githubLinkContainer {
   background-position: center;
 }
-.informationContainer{
+.informationContainer {
   padding: 8%;
 }
 .proyectsContainer {
@@ -108,11 +108,12 @@
     border-top-left-radius: 0px;
     border-bottom-left-radius: 10px;
   }
-  .proyectInformation{
+  .proyectInformation {
     width: 90%;
     height: 32vh;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 10px;
+    overflow: scroll;
   }
   .linksContainer {
     display: flex;
@@ -120,4 +121,3 @@
     justify-content: center;
   }
 }
-
