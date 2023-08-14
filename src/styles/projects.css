@@ -117,7 +117,7 @@
   }
   .linksContainer {
     display: flex;
-    padding: 0px;
+    padding: 1rem;
     justify-content: center;
   }
 }

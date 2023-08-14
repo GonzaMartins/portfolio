@@ -21,7 +21,7 @@ export default function Projects() {
       githubLink: "https://github.com/stars/GonzaMartins/lists/gestor-lavadero",
       // description: {t("Proyects.Memotest")},
       videoLink:
-        "https://www.loom.com/share/5e8ef9975f69445ebd4d14bea86153ab?sid=cf01c799-adf6-45ee-8dbb-d503843b8245",
+        "https://www.loom.com/share/b1d432fe389f474d949cac2aad1e8af0?sid=23869ad0-67cf-406d-8f14-4ff451a64105",
     },
     {
       title: "Memotest",
@@ -34,8 +34,8 @@ export default function Projects() {
       title: "Nasa app",
       description: "Proyects.Nasa",
       githubLink: "https://github.com/GonzaMartins/nasa-api",
-      videoLink:
-        "https://www.loom.com/share/84a295168f7c41a388d44b2570bf60be?sid=c4877661-aba0-4472-b781-c7ca03e2816f",
+      link:
+        "https://nasa-api-project-gm.netlify.app/",
     },
     {
       title: "Proyects.ClimaName",

@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className="home">
       <div className="divTitles">
-        <div className="title titles">
+        <div className="title titles titleHome">
           <div>
             {t("Home.Hi")} <br />
             {t("Home.Presentation")}
