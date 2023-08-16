@@ -6,7 +6,6 @@ import Stack from "@mui/material/Stack";
 import { useTranslation } from "react-i18next";
 
 export default function ContactMe() {
-  
   const [isOpen, setIsOpen] = useState(false);
 
   const { t } = useTranslation();
@@ -20,7 +19,9 @@ export default function ContactMe() {
     <div className="contactMe">
       <div className="cmContainer cmContainerColor titlesCM">
         <form className="inputContainer" onSubmit={handleSubmit}>
-          <div className="titlesContactMe titlesCM titles">{t("ContactMe.LeaveMsj")}</div>
+          <div className="titlesContactMe titlesCM titles">
+            {t("ContactMe.LeaveMsj")}
+          </div>
           <div className="labelContainer ">
             <label className="labelInput">{t("ContactMe.Name")}</label>
             <input
@@ -44,7 +45,7 @@ export default function ContactMe() {
               field="email"
               errors={state.errors}
             />
-          </div> 
+          </div>
           <div className="labelContainer">
             <label className="labelInput">{t("ContactMe.Message")}</label>
             <input
@@ -68,7 +69,9 @@ export default function ContactMe() {
           </button>
         </form>
         <div className="moreInformationContainer miColor">
-          <div className="titlesContactMe titlesCM ">{t("ContactMe.MoreInfo")}</div>
+          <div className="titlesContactMe titlesCM ">
+            {t("ContactMe.MoreInfo")}
+          </div>
           <div className="titlesCM">
             <div className="iconContainer">
               <a
@@ -77,7 +80,13 @@ export default function ContactMe() {
                 className="footer-icon-linkedin items"
                 rel="noreferrer noopener"
               />
-              <div>Linkedin</div>
+              <a
+                href="https://www.linkedin.com/in/gonzalo-martins-3b43101b2/"
+                className="titlesLinks"
+                target="_blank"
+              >
+                Linkedin
+              </a>
             </div>
             <div className="iconContainer">
               <a
@@ -86,7 +95,13 @@ export default function ContactMe() {
                 className="footer-icon-github items"
                 rel="noreferrer noopener"
               />
-              <div>Github</div>
+              <a
+                href="https://github.com/GonzaMartins?tab=repositories"
+                className="titlesLinks"
+                target="_blank"
+              >
+                Github
+              </a>
             </div>
           </div>
         </div>
