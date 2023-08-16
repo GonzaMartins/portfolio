@@ -113,11 +113,14 @@
     height: 32vh;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 10px;
-    overflow: scroll;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
   }
-  .linksContainer {
-    display: flex;
-    padding: 1rem;
-    justify-content: center;
+  .linksContainer { 
+   padding: 3px 0px 0px 3px;
+  }
+  .informationContainer{
+    padding: 2%;
   }
 }

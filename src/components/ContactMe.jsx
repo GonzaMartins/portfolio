@@ -20,7 +20,7 @@ export default function ContactMe() {
     <div className="contactMe">
       <div className="cmContainer cmContainerColor titlesCM">
         <form className="inputContainer" onSubmit={handleSubmit}>
-          <div className="titlesContactMe titlesCM">{t("ContactMe.LeaveMsj")}</div>
+          <div className="titlesContactMe titlesCM titles">{t("ContactMe.LeaveMsj")}</div>
           <div className="labelContainer ">
             <label className="labelInput">{t("ContactMe.Name")}</label>
             <input
@@ -68,7 +68,7 @@ export default function ContactMe() {
           </button>
         </form>
         <div className="moreInformationContainer miColor">
-          <div className="titlesContactMe titlesCM">{t("ContactMe.MoreInfo")}</div>
+          <div className="titlesContactMe titlesCM ">{t("ContactMe.MoreInfo")}</div>
           <div className="titlesCM">
             <div className="iconContainer">
               <a

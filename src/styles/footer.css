@@ -7,7 +7,7 @@
     bottom: 20px;
     justify-content: space-around;
     bottom: 0px;
-    
+    padding-top: 2px;
 }
 .footerContainer .items {
     transition: .5s;
