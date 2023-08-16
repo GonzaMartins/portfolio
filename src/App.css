@@ -516,6 +516,17 @@ html {
   border-radius: 5px; /* Radio de borde */
 }
 
+.img-mode .titlesLinks{
+  color: #00ADB5 !important;
+}
+
+.dark-mode .titlesLinks{
+  color: #635985 !important;
+}
+
+.light-mode .titlesLinks{
+  color: #E5E0FF !important;
+}
 /* Personalizar el botón de la barra de scroll cuando se desplaza */
 .img-mode::-webkit-scrollbar-thumb:hover {
   background-color: #00797e; /* Color del botón cuando se desplaza */
